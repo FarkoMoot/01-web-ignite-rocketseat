@@ -1,0 +1,48 @@
+.content {
+  margin-top: 12px;
+  background-color: #fff;
+  height: 72px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+
+  padding: 0 1rem;
+
+
+  background-color: var(--gray-500);
+
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+} 
+
+.content p {
+  width: 632px;
+  color: var(--gray-100);
+}
+
+.iconBox {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: transparent;
+}
+
+.icon {
+  color: var(--gray-100);
+}
+
+.iconBox:hover {
+  background: var(--gray-400);
+}
+
+.icon:hover {
+  color: var(--danger);
+}

@@ -1,0 +1,68 @@
+.content {
+  margin-top: 64px;
+  width: 100%;
+  max-width: 736px;;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 42px;
+}
+
+.sides {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sides div {
+  background-color: var(--gray-400);
+  height: 19px;
+  /*width: 25px;*/
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: var(--gray-200);
+}
+
+.fontleft {
+  color: var(--blue);
+  font-size: 14px;
+}
+
+.fontright {
+  color: var(--purple);
+  font-size: 14px;
+}
+
+.main {
+  margin-top: 24px;
+  padding-top: 64px;
+  border-top: 1px solid var(--gray-400);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main > p {
+  color: var(--gray-400);
+  font-weight: 700;
+}
+
+.icon {
+  color: var(--gray-400);
+}
+
+.boxConcluido {
+  display: flex;
+  flex-direction: row;
+}

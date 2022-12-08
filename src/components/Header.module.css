@@ -1,0 +1,30 @@
+.header {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-700);
+  margin: 0;
+}
+
+.header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  color: var(--blue);
+}
+
+.header p {
+  font-size: 40px;
+  color: var(--blue);
+}
+
+.header p span {
+  font-size: 40px;
+  color: var(--purple-dark);
+}
